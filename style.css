@@ -9,7 +9,8 @@
 }
 
 input,
-select {
+select,
+textarea {
   font-family: var(--main-font);
   font-size: 15px;
 }
@@ -41,7 +42,8 @@ body {
   padding: 5px 0;
 }
 
-.input {
+.input,
+textarea {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   padding: 10px 8px;
