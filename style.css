@@ -49,3 +49,8 @@ textarea {
   border-radius: 0.25rem;
   padding: 10px 8px;
 }
+
+.checkbox {
+  display: block;
+  padding-top: 20px;
+}
