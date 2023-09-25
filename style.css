@@ -1,0 +1,22 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: "Oswald", sans-serif;
+}
+
+input,
+select {
+  font-family: var(--main-font);
+  font-size: 15px;
+}
+
+.container {
+  margin: 0;
+  font-size: 1rem;
+  font-family: var(--main-font);
+  padding: 60px;
+}
