@@ -14,9 +14,35 @@ select {
   font-size: 15px;
 }
 
-.container {
+.body {
   margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 50vw;
+  padding: 60px;
   font-size: 1rem;
   font-family: var(--main-font);
-  padding: 60px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.input-label {
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.input {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 10px 8px;
 }
