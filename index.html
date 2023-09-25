@@ -17,28 +17,29 @@
 
 <body>
   <div class="container">
-    <h1>Email Form</h1>
-    <form action="" class="form-container">
+    <h1>Enviar Email</h1>
+    <form id="formulario" class="form-container">
       <div class="form-control">
         <label class="input-label" for="email-remitente">Remitente</label>
-        <input class="input" type="email" id="email-remitente" placeholder="poor-student@isdicoders.com" />
+        <input class="input" type="email" id="email-remitente" value="poor-student@isdicoders.com" />
       </div>
       <div class="form-control">
         <label class="input-label" for="email-destinatario">Destinatario</label>
-        <input class="input" type="email" id="email-destinatario" placeholder="sophie@example.com" />
+        <input class="input destinatario" type="email" id="email-destinatario" placeholder="sophie@example.com"
+          required />
       </div>
       <div class="form-control">
         <label class="input-label" for="asunto">Asunto</label>
-        <input class="input" type="text" id="asunto" placeholder="asunto">
+        <input class="input asunto" type="text" id="asunto" placeholder="asunto" required>
       </div>
       <div class="form-control">
         <label class="input-label" for="cuerpo">Cuerpo</label>
-        <textarea id="cuerpo" name="cuerpo" rows="4" cols="50" placeholder="Escribe aquí"></textarea>
+        <textarea class="cuerpo" id="cuerpo" name="cuerpo" rows="4" cols="50" placeholder="Escribe aquí"
+          required></textarea>
       </div>
       <div class="form-control">
         <label class="input-label" for="add-file">Adjunta un archivo</label>
-
-        <input class="input" type="file" id="add-file" name="add-file" accept="image/png, image/jpeg" />
+        <input class="input" type="file" id="add-file" name="add-file" accept="image/png, image/jpeg" required />
       </div>
       <div class="form-control checkbox">
         <label class="input-label" for="terms">Programar envío</label>
@@ -50,6 +51,7 @@
         <input class="input" type="datetime-local" id="meeting-time" name="meeting-time" value="2018-06-12T19:30"
           min="2018-06-07T00:00" max="2018-06-14T00:00" />
       </div>
+      <button type="submit">Enviar</button>
     </form>
   </div>
 </body>
